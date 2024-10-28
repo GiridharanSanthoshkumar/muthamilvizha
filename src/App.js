@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
+import Home1 from './components/Home1';
 import Event from './components/Events';
 
 import './App.css';
@@ -55,7 +55,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home1 />} />
           <Route path="/event/iyal" element={<Event eventlist={events["iyal"]}/>} />
           <Route path="/event/isai" element={<Event eventlist={events["isai"]}/>} />
           <Route path="/event/nadanam" element={<Event eventlist={events["nadanam"]}/>} />

@@ -17,7 +17,7 @@
     align-items: center;
     width: 100vw;
     color: white;
-   
+    font-family: 'Arima';
 }
 
 .eventTitle
@@ -135,9 +135,8 @@
     {
         width:60%;
         padding:2% 0px ;
-        margin-bottom:-10%;
+        margin-top:-10%;
         font-weight:1000;
-
     }
 
     .eventList1{

@@ -8,6 +8,8 @@ import isai from "./isai_img.png";
 import nadanam from "./nadanam_img.png";
 import naadagam from "./naadagam_img.png";
 import chithiram from "./chithiram_img.png";
+import tmfalogo from "./tmfalogo.png";
+import gctlogo from "./gct_logo.png";
 
 const Home1 = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -27,12 +29,18 @@ const Home1 = () => {
 
   return (
     <div id="home">
+      <div class="parent-header">
+      <img src={gctlogo} className='gctlogo'></img>
       <div className="header">
         <div>அரசினர் பொறியியற் கல்லூரி</div>
         <div>கோவை - 13 </div>
         <div>தமிழ் மற்றும் நுண்கலை மன்றம் </div>
         <div>வழங்கும்</div>
       </div>
+      <img src={tmfalogo} className='tmfalogo'></img>
+     
+      </div>
+
       <img className="eventName" src="./name.png" alt="name" />
 
       <div className="date">

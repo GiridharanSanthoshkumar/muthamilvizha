@@ -129,6 +129,11 @@ width:100%;
     font-family: 'Arima';
     font-weight: 600;
 
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: rgb(85, 109, 176);
 }
 .eventList
 {

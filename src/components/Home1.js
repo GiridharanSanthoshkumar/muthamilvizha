@@ -47,12 +47,12 @@ const Home1 = () => {
         <div className="englishdate">
           <h3>நவம்பர் 15 & 16</h3>
           <h2>2024</h2>
-          <button className="btn">RULEBOOK</button> 
+          <button className="btn" onClick={()=>window.location.href ="https://drive.google.com/drive/folders/1u6XB05VPV0i58JJ0MZo4EqVVMm7T2Iau"}>RULEBOOK</button> 
         </div>
         <div className="tamildate">
           <h3 className="date1">ஐப்பசி 29</h3>
           <h3 className="date2">கார்த்திகை 01</h3>
-          <button className="btn">REGISTRATION</button>
+          <button className="btn" onClick={() => window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSeG2I5QPoNrhLaqSAnPWtfSUrPZtycVIOwBUhVoBhi6GNEufA/viewform?usp=sf_link'}>REGISTRATION</button>
         </div> 
       </div>
 

@@ -123,6 +123,27 @@
     width:100%;
 }
 
+
+.btn1{
+    border-radius: 61px;
+    opacity: 100%;
+    width:302px;
+    height: 60px;
+    color:white;
+    border:0px;
+    font-size: 1.7rem;
+    background-image: linear-gradient(#131541b9,#1c9ed6ab);
+    font-family: 'Arima';
+    font-weight: 600;
+
+    cursor: pointer;
+    margin-bottom:10%;
+}
+.btn1:hover
+{
+    background-color: rgb(85, 109, 176);
+}
+
 /* Mobile view for screens smaller than 768px */
 @media (max-width: 768px) {
     #Event {
@@ -167,5 +188,21 @@
         width:10%;
         margin-top:15%;
         margin-left:-75%;
+    }
+
+    .btn1{
+        border-radius: 61px;
+        opacity: 100%;
+        width:px;
+        height: 60px;
+        color:white;
+        border:0px;
+        font-size: 1.7rem;
+        background-image: linear-gradient(#131541b9,#1c9ed6ab);
+        font-family: 'Arima';
+        font-weight: 600;
+    
+        cursor: pointer;
+        margin-bottom:10%;
     }
 }

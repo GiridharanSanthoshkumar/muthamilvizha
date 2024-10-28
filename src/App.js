@@ -16,7 +16,7 @@ const events={
   "isai":["இசைத்தமிழ்",{
     "இசை வினாடி வினா":"இன்னிசை குறித்த கேள்விகளுக்கு விடை அளிக்க இசை வினாடி வினா.",
     "வில்லுப்பாட்டு":"வில்லிசைப் போரில் தங்கள் அணியுடன் கலந்து களமேற போட்டிக் களமாம் வில்லுப்பாட்டு.",
-    "solo-singing":"Showcase your talent in a solo singing event where you can explore the rich diversity of Indian music."
+    "Solo-singing":"Showcase your talent in a solo singing event where you can explore the rich diversity of Indian music."
   }
   ],
   "nadanam":["நடனம்",{

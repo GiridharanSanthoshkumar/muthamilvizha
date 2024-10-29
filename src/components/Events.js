@@ -33,7 +33,7 @@ const Event = (props) => {
         </div>
         </div>
 
-        <button className="btn1" onClick={()=>window.location.href ="https://drive.google.com/drive/folders/1u6XB05VPV0i58JJ0MZo4EqVVMm7T2Iau"}>RULEBOOK</button>
+        <button className="btn1" onClick={()=>window.location.href ="https://drive.google.com/file/d/1ujmf0IVMnr0u2vtUX3PxbWDanetcF-CF/view?usp=drive_link"}>RULEBOOK</button>
      </div>
   );
 };
